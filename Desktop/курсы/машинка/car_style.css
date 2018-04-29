@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.car {
+	width: 500px;
+	margin: 0 auto;	
+}
+
+.flash {
+	margin: 0 auto;	
+	background-color: blue;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px 15px 0 0;
+	border: 2px solid black;
+}
+
+.glass {
+	/*margin: 0 auto; не хочет срабатывать...*/
+	display: inline-block;
+	width: 300px;
+	height: 60px;
+	border-radius: 60px 60px 0 0;
+	background-color: red;
+}
+
+.inside {
+	/*margin: 10 auto; не срабатывает */
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 280px;
+	height: 50px;
+	background-color: blue;
+	border-radius: 60px 60px 0 0;
+	display: inline-block;
+}
+
+.left-glass {
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	background-color: grey;
+	border-radius: 0 15px 0 15px;
+}
+
+.right-glass {
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	background-color: grey;
+	border-radius: 15px 0 15px 0;
+}
+
+.hood {
+	display: inline-block;
+	width: 500px;
+	height: 120px;
+	background-color: grey;
+	border-radius: 60px;
+}
+
+.left-headlight {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: yellow;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+.reg {
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: yellow;
+	margin-left: 100px;/* здесь margin:0 auto не сработал почему то*/;
+	margin-top: 50px;
+	border: 2px solid red;
+}
+
+.right-headlight {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: yellow;
+	float: right;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+
+.l-wheel {
+	display: inline-block;
+	width: 30px;
+	height: 70px;
+	background-color: black;
+	border-radius: 30px;
+	float: left;
+	margin-left: 100px;
+}
+
+.r-wheel {
+	display: inline-block;
+	width: 30px;
+	height: 70px;
+	background-color: black;
+	border-radius: 30px;
+	float: right;
+	margin-right: 100px;
+}
